@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
     
     for (i = 0; i < f; i++){
         for (j = 0; j < f; j++){
-            scanf("%5d", Matriz[i][j]);
+            printf("%5d", Matriz[i][j]);
         }
         printf("\n");
     }
