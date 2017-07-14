@@ -24,6 +24,12 @@ double promedio(int cant, int arreglo[cant]);
 
 void inicializa (size_t fil,size_t col,int[fil][col]);
 
+/*
+ * Intentemos con punteros
+ */
+ 
+void mostrarVectorPuntero(int cant, int *ptrVector);
+
 int main()
 {
     int valores[3] = {3, 5, 20};
@@ -54,6 +60,7 @@ int main()
             printf ("%d ",matriz[i][j]);
         printf("\n");
     }
+    mostrarVectorPuntero(3,&valores);
     system("pause");
     return 0;
 }
@@ -104,3 +111,17 @@ void inicializa(size_t fil, size_t col, int m[fil][col]) {
     }
     return;
 }
+
+
+/*
+ * Vamos a pasar el vector como parametro pero haciendo uso de punteros
+ */
+ 
+ void mostrarVectorPuntero(int cant, int *ptrVector) {
+        int i = 0;
+        for (i=0; i< cant; i++){
+            printf ("%3d\n",*(ptrVector+i));
+        }
+        return;
+ }
+ 
