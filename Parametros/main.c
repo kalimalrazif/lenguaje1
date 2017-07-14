@@ -54,6 +54,7 @@ int main()
             printf ("%d ",matriz[i][j]);
         printf("\n");
     }
+    system("pause");
     return 0;
 }
 
