@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1506168402 source:/home/nomar/Documents/Codigo/Pruebas/C/prueba/estructuras/main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
