@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1509303944 source:/home/nomar/Documents/Trabajos/Unefa/2017-2/codigo/lenguaje1/pilas_colas/pilas/main.c
+	<stdio.h>
+	<stdlib.h>
+
